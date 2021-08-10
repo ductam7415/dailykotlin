@@ -12,7 +12,7 @@ fun main() {
             if (ktmieng <= 10) {
                 println("điểm miệng $ktmieng đ")
                 var diemtrunbinh: Int = 0
-                diemtrunbinh = (ktmieng + kt1tiet * 2 + kthocki * 3) / 7
+                diemtrunbinh = (ktmieng + kt1tiet * 2 + kthocki * 3) / 6
                 if (diemtrunbinh > 8) {
                     println("Chúc mừng bạn với những nỗ lực trong học kì vừa rồi bạn đã đạt thành quả là học sinh giỏi ")
                 } else {
