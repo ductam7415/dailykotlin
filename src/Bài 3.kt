@@ -6,9 +6,8 @@ fun main() {
     dish = dish!!.get(0)?.toString()
 
     if (beast[0] == dish[0] && beast[beast.lastIndex] == dish[dish.lastIndex]) {
-      println("món ăn của nó đã được dọn lên")
-    } else{
-        println("chọn món khác đi")
+        println("món ăn của $beast đã được dọn lên")
+    } else {
+        println("chọn món $dish khác đi nhé ")
     }
-
 }
